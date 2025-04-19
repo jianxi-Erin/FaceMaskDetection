@@ -1,0 +1,5 @@
+train: c:\Users\Spark\Desktop\vision\ocr\dataset\output\train
+val: c:\Users\Spark\Desktop\vision\ocr\dataset\output\test
+
+nc: 2
+names: ['with_mask', 'without_mask']
