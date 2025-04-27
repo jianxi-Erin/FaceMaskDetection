@@ -1,5 +1,6 @@
-train: c:\Users\Spark\Desktop\vision\ocr\dataset\output\train
-val: c:\Users\Spark\Desktop\vision\ocr\dataset\output\test
+train: c:\Users\Spark\Desktop\vision\FaceMaskDetection\dataset\output\train
+val: c:\Users\Spark\Desktop\vision\FaceMaskDetection\dataset\output\test
 
-nc: 2
-names: ['with_mask', 'without_mask']
+nc: 3
+names: ['with_mask', 'without_mask', 'mask_weared_incorrect']
+mask_weared_incorrect: 2.0
