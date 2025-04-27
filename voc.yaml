@@ -3,4 +3,5 @@ val: c:\Users\Spark\Desktop\vision\FaceMaskDetection\dataset\output\test
 
 nc: 3
 names: ['with_mask', 'without_mask', 'mask_weared_incorrect']
-mask_weared_incorrect: 2.0
+weights: [1.0, 1.0, 3.0]  # 根据各类别样本量设置逆权重
+sample_weights: True       # 启用加权随机采样
